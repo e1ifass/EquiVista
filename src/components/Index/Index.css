@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/stock-ppp/images/index-background.png') no-repeat;
+}
+
+/* HEADER */
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 18px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: transparent;
+}
+
+.logo {
+    font-size: 27px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo .equi {
+    color: #8A8A8A;
+}
+
+.logo .vista {
+    color: #FD6262;
+}
+
+nav {
+    position: relative;
+    margin-right: 10px;
+}
+
+nav a {
+    font-size: 15px;
+    color: #8A8A8A;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+nav a:hover {
+    color: #FD6262
+}
+
+button {
+    padding: 15px;
+    border-radius: 7px;
+    border: solid 2px white;
+    background-color: transparent;
+    color: white;
+    font: 18px;
+}
+
+button a {
+    text-decoration: none;
+    margin: 0;
+    color: white;
+    margin: 0;
+}
+
+/* HEADER */
+
+/* BODY */
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(219, 210, 210);
+}
+
+.main-portion {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    margin-top: 4rem;
+}
+
+.main-portion h1 {
+    font-weight: 100;
+    font-size: 76px;
+}
+
+.main-portion span {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-portion p {
+    margin-top: 2rem;
+    font-size: 32px;
+}
+
+.main-portion .learn-more {
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 145px;
+    height: 60px;
+    background: #FD6262;
+    border: transparent;
+    font-size: 18px;
+    color: #141416;
+}
+
+.main-portion button a, .learn-more span {
+    text-decoration: none;
+    color: #352f2f;
+}
+
+.divs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0;
+    height: 480px;
+}    
+
+.divs button {
+    margin-top: 1rem;
+    background-color: #FD6262;
+    border: transparent;
+}
+
+.divs div a {
+    text-decoration: none;
+    color: #352f2f;
+}
+
+.divs p {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-size: 16px;
+}
+
+
+
+.Your-Success, .Our-Team, .Our-Solutions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 270px;
+    width: 250px;
+    border-radius: 8px;
+    color: #8A8A8A;
+    background-color: #1B1C1E;
+    box-shadow: 0 0 10px 5px #1B1C1E;
+}
+
+.container-3-paragraphs {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #8A8A8A;
+}
+
+.container-3-paragraphs h1 {
+    margin-top: 2rem;
+    color: white;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.container-3 p {
+    align-items: center;
+    text-align: center;
+    width: 900px;
+    margin-bottom: 0;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgb(31, 35, 53), #141416)
+}
+
+.container-4 {
+    display: flex;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/stock-ppp/images/container-4-background.png') no-repeat;
+    color: #8A8A8A;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-4 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: rgb(219, 210, 210);
+}
+
+.container-4 div {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    margin: 0;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.container-4 div p {
+    font-size: 22px;
+    padding: 10px;
+    color: #8A8A8A;
+    text-align: center;
+}
+
+.learn-more span {
+    font-size: 20px;
+    color: #352f2f
+}
+
+.learn-more {
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 145px;
+    height: 60px;
+    background: #FD6262;
+    border: transparent;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+footer {
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b3a3a;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    min-height: 650px;
+    background-size: cover;
+    background-position: center;
+    color: #8A8A8A;
+    justify-content: center;
+    align-items: center;
+    background-color: #141416;
+    justify-content: space-evenly;
+    background-image: linear-gradient(#2e1010, #141416)
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers h2,
+.numbers p,
+.numbers button {
+    padding-bottom: 30px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    text-decoration: none;
+    color: #8A8A8A;
+    padding-bottom: 30px;
+}
+
+.contact .numbers .links button {
+    margin: 0;
+}
